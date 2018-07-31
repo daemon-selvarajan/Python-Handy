@@ -1,9 +1,12 @@
 Regular Expression Exercises
 ============================
 
+<<<<<<< HEAD
 These exercises accompany the Regular Expressions tutorial presented by `Trey Hunner`_ at PyCon 2016.
 
 
+=======
+>>>>>>> Added Regex Files
 Testing an exercise by name
 ---------------------------
 
@@ -81,5 +84,8 @@ To solve an exercise, navigate to the appropriate exercise module and find the e
 
 Modify this function to return the expected result for any input.  Make sure to **use regular expressions** in your answer!
 
+<<<<<<< HEAD
 
 .. _trey hunner: http://treyhunner.com/
+=======
+>>>>>>> Added Regex Files
