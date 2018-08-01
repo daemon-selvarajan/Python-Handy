@@ -48,7 +48,7 @@ class IsIntegerTests(unittest.TestCase):
         self.assertTrue(is_integer("-999"))
 
     def test_leading_plus(self):
-        self.assertFalse(is_integer("+999"))
+        self.assertTrue(is_integer("+999"))
 
     def test_leading_zero(self):
         self.assertTrue(is_integer("00"))
@@ -75,7 +75,7 @@ class IsFractionTests(unittest.TestCase):
         self.assertTrue(is_fraction("-999/1"))
 
     def test_leading_plus(self):
-        self.assertFalse(is_fraction("+999/1"))
+        self.assertTrue(is_fraction("+999/1"))
 
     def test_leading_zero_in_numerator(self):
         self.assertTrue(is_fraction("00/1"))
