@@ -22,6 +22,7 @@ def is_fraction(string):
 
 def is_valid_date(string):
     """Return True iff the string represents a valid YYYY-MM-DD date."""
+    return bool(re.search(r'\d\d\d\d-\d\d-\d\d',string))
 
 
 def is_number(string):
